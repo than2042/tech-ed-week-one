@@ -1,6 +1,8 @@
 .container {
   display: flex;
   flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
@@ -8,6 +10,8 @@
   height: 100px;
   background: rgb(188, 37, 10);
   margin: 20px;
+  /* display: inline-block;
+  align-items: center; */
 }
 
 .box:nth-child(1) {
