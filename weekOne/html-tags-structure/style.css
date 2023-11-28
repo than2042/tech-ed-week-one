@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+}
+
+.section-one {
+  background-image: url("spaceship.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+  color: #f5f5f5;
+  margin: 0 auto;
+}
+
+.section-heading,
+.space-farers {
+  width: 50%;
+  padding: 50px 20px;
+  margin: 0 50px;
+  font-size: 40px;
+}
+
+.paragraph-one {
+  width: 35%;
+  padding: 50px;
+  margin: 0 70px;
+  background-color: #ffe4c4;
+  color: #ff6347;
+  font-size: 24px;
+}
+
+button {
+  width: 140px;
+  height: 40px;
+  margin: 40px 70px;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: #1b98a6;
+  border-width: 0;
+}
+.space-farers {
+  margin: 0 200px;
+}
+.section-two {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 40px auto;
+}
+.paragraph-two {
+  width: 50%;
+  margin: 40px;
+  font-size: 24px;
+}
+.btn {
+  margin: 40px 230px;
+}
+footer {
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+  font-size: 24px;
+  background: #1b98a6;
+}
