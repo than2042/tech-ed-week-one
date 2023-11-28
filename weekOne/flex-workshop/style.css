@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: rgb(188, 37, 10);
+  margin: 20px;
+}
+
+.box:nth-child(1) {
+  background: bisque;
+}
+.box:nth-child(2) {
+  background: #c27415;
+}

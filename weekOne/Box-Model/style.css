@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+main {
+  display: flex;
+}
+
+.box {
+  background: #733838;
+  padding: 1.3rem;
+  margin: 1.5rem;
+  width: 200px;
+  height: 200px;
+  border: 5px solid #0000ff;
+}
+
+.second-box {
+  /* box-sizing: border-box; */
+  background: #aeff00;
+  color: #733838;
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  background: #5d5dba;
+  text-align: center;
+  font-size: 1.3rem;
+  color: bisque;
+}

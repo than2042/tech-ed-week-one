@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.image-container {
+  background: #eee;
+  height: 18rem;
+  width: 18rem;
+  position: relative;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 2rem;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 4rem;
+}
+
+.bg-img {
+  background-image: url("logo.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  /* margin-bottom: 200px; */
+}
+
+.cookie-notice {
+  background: #795050;
+  padding: 1.3rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.spaceship {
+  width: 40rem;
+  height: 18rem;
+  /* margin-top: 100px; */
+}
