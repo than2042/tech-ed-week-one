@@ -4,9 +4,8 @@ body {
 }
 
 .image-container {
-  background: #eee;
-  height: 18rem;
-  width: 18rem;
+  height: 100%;
+  width: 100%;
   position: relative;
 }
 
@@ -29,13 +28,18 @@ h2 {
 .cookie-notice {
   background: #795050;
   padding: 1.3rem;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
 }
 .spaceship {
-  width: 40rem;
-  height: 18rem;
+  width: 100%;
+  height: 100%;
   /* margin-top: 100px; */
+}
+
+.cookie-notice p {
+  color: #ebedef;
+  font-size: 1.1rem;
 }
